@@ -94,3 +94,34 @@ I, [2016-06-14T17:22:09.161467 #10962]  INFO -- : worker=1 ready
 192.168.60.5 - - [14/Jun/2016:17:24:17 +0800] "GET / HTTP/1.0" 304 - 0.2925
 192.168.60.5 - - [21/Jul/2016:20:42:15 +0800] "GET / HTTP/1.0" 200 - 1.5384
 192.168.60.5 - - [21/Jul/2016:20:42:16 +0800] "GET %2Ffavicon.ico HTTP/1.0" 200 - 0.0916
+192.168.60.5 - - [21/Jul/2016:21:56:51 +0800] "GET / HTTP/1.0" 500 213151 1.1514
+I, [2016-07-21T21:59:50.479117 #10956]  INFO -- : reaped #<Process::Status: pid 10959 exit 0> worker=0
+I, [2016-07-21T21:59:50.479361 #10956]  INFO -- : reaped #<Process::Status: pid 10962 exit 0> worker=1
+I, [2016-07-21T21:59:50.479644 #10956]  INFO -- : master complete
+I, [2016-07-21T22:00:16.805386 #6749]  INFO -- : Refreshing Gem list
+I, [2016-07-21T22:00:18.149359 #6749]  INFO -- : unlinking existing socket=/web/rails/app219/shared/sockets/unicorn.sock
+I, [2016-07-21T22:00:18.149553 #6749]  INFO -- : listening on addr=/web/rails/app219/shared/sockets/unicorn.sock fd=11
+I, [2016-07-21T22:00:18.149807 #6749]  INFO -- : listening on addr=0.0.0.0:3000 fd=12
+I, [2016-07-21T22:00:18.149907 #6749]  INFO -- : worker=0 spawning...
+I, [2016-07-21T22:00:18.152802 #6749]  INFO -- : worker=1 spawning...
+I, [2016-07-21T22:00:18.153208 #6752]  INFO -- : worker=0 spawned pid=6752
+I, [2016-07-21T22:00:18.153357 #6752]  INFO -- : worker=0 ready
+I, [2016-07-21T22:00:18.154633 #6749]  INFO -- : master process ready
+I, [2016-07-21T22:00:18.154991 #6755]  INFO -- : worker=1 spawned pid=6755
+I, [2016-07-21T22:00:18.155132 #6755]  INFO -- : worker=1 ready
+192.168.60.5 - - [21/Jul/2016:22:00:30 +0800] "GET / HTTP/1.0" 200 - 8.0350
+192.168.60.5 - - [21/Jul/2016:22:00:31 +0800] "GET / HTTP/1.0" 200 - 0.7566
+192.168.60.5 - - [21/Jul/2016:22:00:31 +0800] "GET /welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1 HTTP/1.0" 200 - 0.0037
+192.168.60.5 - - [21/Jul/2016:22:00:31 +0800] "GET /jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1 HTTP/1.0" 200 294162 0.0157
+192.168.60.5 - - [21/Jul/2016:22:00:31 +0800] "GET /jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1 HTTP/1.0" 200 20815 0.0056
+192.168.60.5 - - [21/Jul/2016:22:00:31 +0800] "GET /turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1 HTTP/1.0" 200 24817 0.0052
+192.168.60.5 - - [21/Jul/2016:22:00:31 +0800] "GET /welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1 HTTP/1.0" 200 31 0.0040
+192.168.60.5 - - [21/Jul/2016:22:00:31 +0800] "GET /application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1 HTTP/1.0" 200 581 0.0054
+192.168.60.5 - - [21/Jul/2016:22:00:31 +0800] "GET /application.self-2ff41609111facb1c98c9b638520b146cd7c8c0f1b0b3dff91380bdf685d1720.css?body=1 HTTP/1.0" 200 331331 0.0843
+192.168.60.5 - - [21/Jul/2016:22:00:39 +0800] "GET / HTTP/1.0" 200 - 0.0435
+192.168.60.5 - - [21/Jul/2016:22:06:59 +0800] "GET / HTTP/1.0" 200 - 0.0392
+192.168.60.5 - - [21/Jul/2016:22:07:00 +0800] "GET / HTTP/1.0" 200 - 0.0294
+192.168.60.5 - - [21/Jul/2016:22:07:02 +0800] "GET / HTTP/1.0" 200 - 0.0315
+192.168.60.5 - - [21/Jul/2016:22:07:02 +0800] "GET / HTTP/1.0" 200 - 0.0268
+192.168.60.5 - - [21/Jul/2016:22:07:02 +0800] "GET / HTTP/1.0" 200 - 0.1042
+192.168.60.5 - - [21/Jul/2016:22:07:32 +0800] "GET /courses.growthschool.com/courses/rails-101 HTTP/1.0" 404 21128 0.1727
