@@ -1,0 +1,96 @@
+I, [2016-02-23T14:16:56.406084 #14427]  INFO -- : Refreshing Gem list
+I, [2016-02-23T14:17:02.583733 #14427]  INFO -- : listening on addr=/web/rails/app219/shared/sockets/unicorn.sock fd=11
+I, [2016-02-23T14:17:02.584152 #14427]  INFO -- : listening on addr=0.0.0.0:3000 fd=12
+I, [2016-02-23T14:17:02.584281 #14427]  INFO -- : worker=0 spawning...
+I, [2016-02-23T14:17:02.587017 #14427]  INFO -- : worker=1 spawning...
+I, [2016-02-23T14:17:02.587539 #14430]  INFO -- : worker=0 spawned pid=14430
+I, [2016-02-23T14:17:02.587750 #14430]  INFO -- : worker=0 ready
+I, [2016-02-23T14:17:02.589261 #14427]  INFO -- : master process ready
+I, [2016-02-23T14:17:02.589751 #14433]  INFO -- : worker=1 spawned pid=14433
+I, [2016-02-23T14:17:02.589973 #14433]  INFO -- : worker=1 ready
+E, [2016-02-23T14:34:01.418447 #14427] ERROR -- : reaped #<Process::Status: pid 14433 SIGKILL (signal 9)> worker=1
+I, [2016-02-23T14:34:01.418652 #14427]  INFO -- : worker=1 spawning...
+I, [2016-02-23T14:34:01.421289 #15669]  INFO -- : worker=1 spawned pid=15669
+I, [2016-02-23T14:34:01.421560 #15669]  INFO -- : worker=1 ready
+I, [2016-02-23T14:36:15.549391 #14427]  INFO -- : reaped #<Process::Status: pid 14430 exit 0> worker=0
+I, [2016-02-23T14:36:15.549536 #14427]  INFO -- : reaped #<Process::Status: pid 15669 exit 0> worker=1
+I, [2016-02-23T14:36:15.549791 #14427]  INFO -- : master complete
+I, [2016-02-23T14:36:43.461532 #15726]  INFO -- : Refreshing Gem list
+I, [2016-02-23T14:36:44.731594 #15726]  INFO -- : unlinking existing socket=/web/rails/app219/shared/sockets/unicorn.sock
+I, [2016-02-23T14:36:44.731863 #15726]  INFO -- : listening on addr=/web/rails/app219/shared/sockets/unicorn.sock fd=11
+I, [2016-02-23T14:36:44.732125 #15726]  INFO -- : listening on addr=0.0.0.0:3000 fd=12
+I, [2016-02-23T14:36:44.732225 #15726]  INFO -- : worker=0 spawning...
+I, [2016-02-23T14:36:44.734450 #15726]  INFO -- : worker=1 spawning...
+I, [2016-02-23T14:36:44.734867 #15729]  INFO -- : worker=0 spawned pid=15729
+I, [2016-02-23T14:36:44.735019 #15729]  INFO -- : worker=0 ready
+I, [2016-02-23T14:36:44.736185 #15726]  INFO -- : master process ready
+I, [2016-02-23T14:36:44.736545 #15732]  INFO -- : worker=1 spawned pid=15732
+I, [2016-02-23T14:36:44.736677 #15732]  INFO -- : worker=1 ready
+192.168.60.5 - - [23/Feb/2016:14:36:55 +0800] "GET / HTTP/1.0" 200 - 0.6776
+192.168.60.5 - - [23/Feb/2016:14:36:56 +0800] "GET %2Ffavicon.ico HTTP/1.0" 200 - 0.0014
+192.168.60.5 - - [23/Feb/2016:16:14:58 +0800] "GET / HTTP/1.0" 304 - 0.2919
+192.168.60.5 - - [23/Feb/2016:16:14:59 +0800] "GET %2Ffavicon.ico HTTP/1.0" 200 - 0.0010
+I, [2016-02-23T16:25:35.917850 #15726]  INFO -- : reaped #<Process::Status: pid 15729 exit 0> worker=0
+I, [2016-02-23T16:25:35.918006 #15726]  INFO -- : reaped #<Process::Status: pid 15732 exit 0> worker=1
+I, [2016-02-23T16:25:35.918250 #15726]  INFO -- : master complete
+I, [2016-02-23T16:26:25.540863 #21511]  INFO -- : Refreshing Gem list
+I, [2016-02-23T16:26:26.815342 #21511]  INFO -- : unlinking existing socket=/web/rails/app219/shared/sockets/unicorn.sock
+I, [2016-02-23T16:26:26.815604 #21511]  INFO -- : listening on addr=/web/rails/app219/shared/sockets/unicorn.sock fd=11
+I, [2016-02-23T16:26:26.815878 #21511]  INFO -- : listening on addr=0.0.0.0:3000 fd=12
+I, [2016-02-23T16:26:26.815981 #21511]  INFO -- : worker=0 spawning...
+I, [2016-02-23T16:26:26.818831 #21511]  INFO -- : worker=1 spawning...
+I, [2016-02-23T16:26:26.819247 #21514]  INFO -- : worker=0 spawned pid=21514
+I, [2016-02-23T16:26:26.819398 #21514]  INFO -- : worker=0 ready
+I, [2016-02-23T16:26:26.820780 #21511]  INFO -- : master process ready
+I, [2016-02-23T16:26:26.821154 #21517]  INFO -- : worker=1 spawned pid=21517
+I, [2016-02-23T16:26:26.821296 #21517]  INFO -- : worker=1 ready
+192.168.60.5 - - [23/Feb/2016:16:28:35 +0800] "GET / HTTP/1.0" 304 - 0.2926
+I, [2016-02-27T08:30:39.308509 #30958]  INFO -- : Refreshing Gem list
+I, [2016-02-27T08:30:44.469032 #30958]  INFO -- : unlinking existing socket=/web/rails/app219/shared/sockets/unicorn.sock
+I, [2016-02-27T08:30:44.469270 #30958]  INFO -- : listening on addr=/web/rails/app219/shared/sockets/unicorn.sock fd=11
+I, [2016-02-27T08:30:44.469643 #30958]  INFO -- : listening on addr=0.0.0.0:3000 fd=12
+I, [2016-02-27T08:30:44.469772 #30958]  INFO -- : worker=0 spawning...
+I, [2016-02-27T08:30:44.471956 #30958]  INFO -- : worker=1 spawning...
+I, [2016-02-27T08:30:44.472470 #30961]  INFO -- : worker=0 spawned pid=30961
+I, [2016-02-27T08:30:44.472673 #30961]  INFO -- : worker=0 ready
+I, [2016-02-27T08:30:44.473886 #30958]  INFO -- : master process ready
+I, [2016-02-27T08:30:44.474361 #30964]  INFO -- : worker=1 spawned pid=30964
+I, [2016-02-27T08:30:44.474554 #30964]  INFO -- : worker=1 ready
+192.168.60.5 - - [27/Feb/2016:08:31:54 +0800] "GET / HTTP/1.0" 200 - 0.6775
+192.168.60.5 - - [27/Feb/2016:08:31:54 +0800] "GET %2Ffavicon.ico HTTP/1.0" 200 - 0.0014
+192.168.60.5 - - [22/Mar/2016:08:47:13 +0800] "GET / HTTP/1.0" 200 - 1.4164
+192.168.60.5 - - [22/Mar/2016:08:47:19 +0800] "GET %2Ffavicon.ico HTTP/1.0" 200 - 0.0014
+I, [2016-04-26T12:27:02.247265 #30958]  INFO -- : reaped #<Process::Status: pid 30961 exit 0> worker=0
+I, [2016-04-26T12:27:02.247467 #30958]  INFO -- : reaped #<Process::Status: pid 30964 exit 0> worker=1
+I, [2016-04-26T12:27:02.247683 #30958]  INFO -- : master complete
+I, [2016-05-18T20:35:28.365289 #19120]  INFO -- : Refreshing Gem list
+I, [2016-05-18T20:35:29.949170 #19120]  INFO -- : unlinking existing socket=/web/rails/app219/shared/sockets/unicorn.sock
+I, [2016-05-18T20:35:29.949387 #19120]  INFO -- : listening on addr=/web/rails/app219/shared/sockets/unicorn.sock fd=11
+I, [2016-05-18T20:35:29.949706 #19120]  INFO -- : listening on addr=0.0.0.0:3000 fd=12
+I, [2016-05-18T20:35:29.949818 #19120]  INFO -- : worker=0 spawning...
+I, [2016-05-18T20:35:29.952137 #19120]  INFO -- : worker=1 spawning...
+I, [2016-05-18T20:35:29.952577 #19123]  INFO -- : worker=0 spawned pid=19123
+I, [2016-05-18T20:35:29.952739 #19123]  INFO -- : worker=0 ready
+I, [2016-05-18T20:35:29.953812 #19120]  INFO -- : master process ready
+I, [2016-05-18T20:35:29.954202 #19126]  INFO -- : worker=1 spawned pid=19126
+I, [2016-05-18T20:35:29.954345 #19126]  INFO -- : worker=1 ready
+192.168.60.5 - - [18/May/2016:20:35:42 +0800] "GET / HTTP/1.0" 200 - 0.4301
+192.168.60.5 - - [18/May/2016:20:35:43 +0800] "GET %2Ffavicon.ico HTTP/1.0" 200 - 0.0014
+192.168.60.5 - - [14/Jun/2016:16:55:54 +0800] "GET / HTTP/1.0" 200 - 0.0875
+192.168.60.5 - - [14/Jun/2016:16:55:55 +0800] "GET %2Ffavicon.ico HTTP/1.0" 200 - 0.0011
+192.168.60.5 - - [14/Jun/2016:16:56:00 +0800] "GET /rails/info/properties HTTP/1.0" 200 - 0.4460
+192.168.60.5 - - [14/Jun/2016:17:12:32 +0800] "GET / HTTP/1.0" 304 - 0.0518
+I, [2016-06-14T17:22:07.848309 #10956]  INFO -- : Refreshing Gem list
+I, [2016-06-14T17:22:09.155701 #10956]  INFO -- : unlinking existing socket=/web/rails/app219/shared/sockets/unicorn.sock
+I, [2016-06-14T17:22:09.155901 #10956]  INFO -- : listening on addr=/web/rails/app219/shared/sockets/unicorn.sock fd=11
+I, [2016-06-14T17:22:09.156166 #10956]  INFO -- : listening on addr=0.0.0.0:3000 fd=12
+I, [2016-06-14T17:22:09.156272 #10956]  INFO -- : worker=0 spawning...
+I, [2016-06-14T17:22:09.159189 #10956]  INFO -- : worker=1 spawning...
+I, [2016-06-14T17:22:09.159610 #10959]  INFO -- : worker=0 spawned pid=10959
+I, [2016-06-14T17:22:09.159763 #10959]  INFO -- : worker=0 ready
+I, [2016-06-14T17:22:09.160985 #10956]  INFO -- : master process ready
+I, [2016-06-14T17:22:09.161332 #10962]  INFO -- : worker=1 spawned pid=10962
+I, [2016-06-14T17:22:09.161467 #10962]  INFO -- : worker=1 ready
+192.168.60.5 - - [14/Jun/2016:17:24:17 +0800] "GET / HTTP/1.0" 304 - 0.2925
+192.168.60.5 - - [21/Jul/2016:20:42:15 +0800] "GET / HTTP/1.0" 200 - 1.5384
+192.168.60.5 - - [21/Jul/2016:20:42:16 +0800] "GET %2Ffavicon.ico HTTP/1.0" 200 - 0.0916
